@@ -96,4 +96,4 @@ my_string = 'orice string'
 # print(my_string[3], my_string)
 
 # print('rice' not in my_string)
-# print('ricee' not in my_string)
+
