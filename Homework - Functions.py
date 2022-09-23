@@ -1,4 +1,14 @@
 # Exercises 1:
+def number(a: 0, b, c, *args, **kwargs):
+    print(a + b + c)
+
+number(1, 5, -3, 'abc', [12, 56, 'cad'])
+
+def new_function(a=0, b=1, c=2, d=3, e=4):
+
+    return a + b + c
+print(new_function(1, 5, -3, 'abc', [12, 56, 'cad']))
+
 
 def my_function(a=1, b=5, c=-3, d='abc', e=[12, 56, 'cad']):
     return a + b - c
